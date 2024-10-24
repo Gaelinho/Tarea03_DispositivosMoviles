@@ -14,7 +14,7 @@
     <string name="edit">Editar</string>
     <string name="completed">Completado</string>
 
-    <string name="add_task_menu">Agregar Tarea</string>
+    <string name="ord_fecha">Ordenar por Fecha</string>
+    <string name="ord_materia">Ordenar por Materia</string>
     <string name="prior_menu">Mostrar Prioritarios</string>
-    <string name="delete_task">Eliminar Tarea</string>
 </resources>
