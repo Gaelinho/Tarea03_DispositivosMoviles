@@ -17,4 +17,13 @@
     <string name="ord_fecha">Ordenar por Fecha</string>
     <string name="ord_materia">Ordenar por Materia</string>
     <string name="prior_menu">Mostrar Prioritarios</string>
+
+    <string name="DrawerOpened">NavigationDrawerOpened</string>
+    <string name="DrawerClosed">NavigationDrawerClosed</string>
+
+    <string-array name="menu_items">
+        <item>Agregar Tarea</item>
+        <item>Eliminar Tarea</item>
+        <item>Mostrar Completados</item>
+    </string-array>
 </resources>
