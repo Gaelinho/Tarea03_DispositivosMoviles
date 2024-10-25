@@ -51,7 +51,7 @@ class PendientesActivity : ComponentActivity() {
         mDrawerList.onItemClickListener = DrawerItemClickListener()
 
 
-        mDrawerLayout.setDrawerListener(mDrawerToggle)
+        mDrawerLayout.addDrawerListener(mDrawerToggle)
 
         actionBar!!.setDisplayHomeAsUpEnabled(true)
         actionBar!!.setHomeButtonEnabled(true)
@@ -75,6 +75,9 @@ class PendientesActivity : ComponentActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
+            return true
+        }
         val id = item.itemId
         when (id) {
             R.id.ord_fecha -> {
